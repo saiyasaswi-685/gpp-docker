@@ -1,0 +1,2 @@
+# m h dom mon dow user command
+* * * * * root echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) - heartbeat" >> /cron/heartbeat 2>&1
