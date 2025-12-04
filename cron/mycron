@@ -1,2 +1,1 @@
-# m h dom mon dow user command
-* * * * * root echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) - heartbeat" >> /cron/heartbeat 2>&1
+* * * * * root cd /app && PYTHONPATH=/app python3 -m app.scripts.log_2fa_cron >> /cron/last_code.txt 2>&1
