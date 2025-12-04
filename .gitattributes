@@ -1,1 +1,1 @@
-printf '%s\n' 'cron/2fa-cron text eol=lf' > .gitattributes
+cron/* text eol=lf
